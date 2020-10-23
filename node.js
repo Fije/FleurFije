@@ -1,5 +1,9 @@
-
-const   catfactlist = document.getElementById("catfactlist")
+import '@material/mwc-button'; // bare module specifier
+const catfactlist = document.getElementById("catfactlist");
+const button = document.querySelector('#myButton');
+button.addEventListener('click', () => {
+  alert('You clicked!');
+});
 fetch("https://cat-fact.herokuapp.com/facts").then((response) => {
     console.log(response);
       response.json().then((result) => { 
@@ -10,4 +14,5 @@ fetch("https://cat-fact.herokuapp.com/facts").then((response) => {
             catfactlist.appendChild(catfactElem);
         });
     });
+   
 });

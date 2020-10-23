@@ -1,0 +1,27 @@
+{
+  "name": "FleurFije",
+  "version": "1.0.0",
+  "main": "node.js",
+  "dependencies": {
+    "@material/mwc-button": "^0.19.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.0.15"
+  },
+  "scripts": {
+    "start": "web-dev-server --node-resolve --port 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fije/FleurFije.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fije/FleurFije/issues"
+  },
+  "homepage": "https://github.com/Fije/FleurFije#readme",
+  "description": ""
+}
