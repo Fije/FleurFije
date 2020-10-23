@@ -3,7 +3,7 @@ import copy from "rollup-plugin-copy";
 import { terser } from "rollup-plugin-terser";
  
 export default {
-  input: "index.js",
+  input: "node.js",
   output: {
     dir: "dist",
     format: "es",
